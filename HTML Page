@@ -1,0 +1,372 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sridhar's Portfolio</title>
+    <!-- swipe css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box-icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+
+    <link rel="stylesheet" href="pf.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Welcome</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Service</a>
+            <a href="#skill">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+            
+        </nav>
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home-section-design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3 class="grit"> <span >Hello,</span> I am</h3>
+            <h1 class="name">Sridhar</h1>
+            <p class="sub section-sub-heading">
+                I am a <span class="role"></p>
+            
+            <div class="social-media">
+                <a onclick="window.open('https://www.linkedin.com/in/sridhar-r-0410b9226?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', '_blank')"><i class='bx bxl-linkedin' ></i></a>
+                <a onclick="window.open('https://leetcode.com/u/sridharr007', '_blank')"><i class='fas fa-code'> </i></a>
+                <a onclick="window.open('https://github.com/Sridhar-777', '_blank')"><i class='bx bxl-github' ></i></i></a>
+                <a href="https://www.instagram.com/star_shadowoff?igsh=MWE2cnQwdGJxenZ3OQ=="><i class='bx bxl-instagram' ></i></a>
+            </div>
+
+            <a onclick="window.open('https://drive.google.com/file/d/1VPWLeApJdLYmB-WBnRUp4fkC-D468h7c/view?usp=drivesdk', '_blank')" class="btn">Download CV</a>
+        </div>
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession"  style="--i:0" >
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession"  style="--i:1"> 
+                    <i class='bx bx-code-curly'></i>
+                    <h3>Java Programmer</h3>
+                </div>
+                <div class="profession"  style="--i:2">
+                    
+                    <h3>UI/UX Designer</h3>
+                </div>
+                <div class="profession"  style="--i:3">
+                    <i class='bx bx-Football'></i>
+                    <h3>Football Player</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="/assets/InShot_20230619_210904147.jpg" alt="">
+            <!-- <img src="Images/hacker-theme-png.webp" alt="" width="60%"> -->
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer!</h3>
+            <p>Hi there, I'm a BE student at SNS College of engineering,
+                and here is my <span><strong>Porfolio</strong> Website</span>.
+                I'm very Excited to share Some of my <span>Works </span>with you! I've good understanding of <span>HTML, CSS, Javascript and Java Programming Language</span>
+            </p>
+            <a href="#portfolio" class="btn">My Works</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">What,<span>I Do</span></h2>
+        <h3 class="sub-heading">My <span>Services and intrigue</span></h3>
+    
+    <div class="services-container">
+        <div class="services-box">
+            <i class='bx bx-code-alt' ></i>
+            <h3>Web Development</h3>
+           <p>Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network). It includes HTML, CSS, Javascript and More</p>
+           <a href="#portfolio" class="btn">My Works</a>
+        </div>
+        <!-- <div class="services-box">
+            <i class='bx bx-bar-chart' ></i>
+            <h3>Digital Marketing</h3>
+            <p>Digital marketing, An online marketing, is the promotion of brands to connect with potential customers using the internet and other forms of digital communication. </p>
+            <a href="#portfolio" class="btn">Read More</a>
+        </div> -->
+        <div class="services-box">
+            <i class='bx bx-video-recording' ></i>
+            <h3>Software Development</h3>
+            <p> I developed an interest in software development with Java and began learning it after discovering that it is a platform-independent language.</p>
+            <a onclick="window.open('https://leetcode.com/u/sridharr007/', '_blank')" class="btn">My Works</a>
+        </div>
+    </div>
+</section>
+
+<section class="skill" id="skill">
+    <h2 class="heading">Professional <span>Skills</span></h2>
+    <h3 class="sub-heading"><span>My,</span> Talent</h3>
+
+    <div class="skill-container">
+        <div class="skill-box">
+            <div class="skill-heading">
+                <h3>HTML & CSS</h3>
+                <h3> 90 <span>%</span></h3>
+            </div>
+            <p>HTML(Hyper text Markup Language) an CCS is fundamental of web development HTMl is used to design the skelton of a website and CSS used to style the website </p>
+            <div class="progress-bar">
+            
+                <div class="progress" style="width: 90%;" >
+                    <span class="circle">90%</span>
+                </div>
+            </div>
+            <a href="#" class="btn">Explore</a>
+        </div>
+
+        <div class="skill-box">
+            <div class="skill-heading">
+                <h3>Java</h3>
+                <h3>70 <span>%</span></h3>
+            </div>
+            <p>Java is a widely-used programming language for web backends and Android . It has been a popular choice among developers for over two decades, with millions of Java applications in use today.</p>
+
+            <div class="progress-bar">
+                <div class="progress" style="width: 50%;" >
+                    <span class="circle">50%</span>
+                </div>
+            </div>
+            <a href="#" class="btn">Explore</a>
+        </div>
+
+        <div class="skill-box">
+
+            <div class="skill-heading">
+                <h3>C#</h3>
+                <h3>50 <span>%</span></h3>
+            </div>
+            <p>C# is extended version of C programming, It is Object oriented programming language and take less time to execute that is why we use C# for competive programming.</p>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum distinctio quaerat repudiandae temporibus hic eveniet alias! Quia, qui cupiditate asperiores, repellat facilis aut accusamus suscipit cumque perferendis aliquid porro cum?</p> -->
+            <div class="progress-bar">
+                <div class="progress" style="width: 50%;" >
+                    <span class="circle">50%</span>
+                </div>
+            </div>
+            <a href="#" class="btn">Explore</a>
+        </div>
+
+        <div class="skill-box">
+
+            <div class="skill-heading">
+                <h3>Javascript</h3>
+                <h3>60 <span>%</span></h3>
+            </div>
+            <p>Javascript is one of the most used  programming language, This is used to give functions in a website. Frameworks- ReactJs, NodeJs, Express.Js, View.Js </p>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum distinctio quaerat repudiandae temporibus hic eveniet alias! Quia, qui cupiditate asperiores, repellat facilis aut accusamus suscipit cumque perferendis aliquid porro cum?</p> -->
+            <div class="progress-bar">
+                <div class="progress" style="width: 60%;" >
+                    <span class="circle">60%</span>
+                </div>
+            </div>
+            <a href="#" class="btn">Explore</a>
+        </div>
+
+        <div class="skill-box">
+
+            <div class="skill-heading">
+                <h3>LowCode Development</h3>
+                <h3>50 <span>%</span></h3>
+            </div>
+            <p>Low code development is a software approach that uses visual interfaces and minimal hand-coding to quickly create applications, making it accessible to non-developers.</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 60%;" >
+                    <span class="circle">50%</span>
+                </div>
+                
+            </div>
+            <a href="#" class="btn">Explore</a>
+        </div>
+
+        <div class="skill-box">
+
+            <div class="skill-heading">
+                <h3>video Editing</h3>
+                <h3>50 <span>%</span></h3>
+            </div>
+            <p>Digital marketing, An online marketing, is the promotion of brands to connect with potential customers using the internet and other forms of digital communication. </p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 50%;" >
+                    <span class="circle">50%</span>
+                </div>
+            </div>
+            <a href="#" class="btn">Explore</a>
+        </div>
+    </div>
+</section>
+
+
+<!-- portfolio section -->
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">portfolio<span></span></h2>
+    <h3 class="sub-heading">My <span>Briefcase</span></h3>
+    <!-- <div class="port-nav">
+        <a href="#all">All</a>
+        <a href="#project">Projects</a>
+        <a href="#game">Games</a>
+        <a href="#certificate">Certifications</a>
+        <a href="#photography">Photography</a>
+         <a href="#contact">Contact</a>    
+    </div> -->
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="./assets/frontend.jpg" alt="">
+            <div class="portfolio-layer">
+                <h3>Frontend Project</h3>
+                <h4> Tasker</h4>
+                <p>"Organize. Prioritize. Achieve. – Your Ultimate Task Manager!" </p>
+                <h4>Click and See The Magic</h4>
+                <a href="https://github.com/Sridhar-777/Tasker"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="./assets/frontend.jpg" alt="">
+            <div class="portfolio-layer">
+                <h3>Frontend Project</h3>
+                <h4>Gaming Website </h4>
+                <p>"Play. Compete. Conquer. – Your Ultimate Gaming Arena!" </p>
+                <a href="https://github.com/Sridhar-777/Gaming-Website"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="./assets/frontend.jpg" alt="">
+            <div class="portfolio-layer">
+                <h3>Frontend projects</h3>
+                <h4>Project comun</h4>
+                <p> It is my first Frontend projects,which mainly focuses in CSS  </p>
+                <h4> Click icon to check </h4>
+                <a href="https://github.com/RanjithS581/project-comun"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="./assets/web projects.jpg" alt="">
+            <div class="portfolio-layer">
+                <h3>Assignment Pages</h3>
+                <h4> HTML CSS Javascript </h4>
+                <p> Regular Assignment </p>
+                <h4>""Task Complete – Efficiency at Its Best!""</h4>
+                <a href="https://github.com/Sridhar-777/Assignment"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="./assets/web projects.jpg" alt="">
+            <div class="portfolio-layer">
+                <h3>Javascript basic Questions </h3>
+                <h4>To learn better</h4>
+                <p>JS Basics Conquered – On to the Next Level! </p>
+                <h4>Click icon and check</h4>
+                <a href="https://github.com/Sridhar-777/May-Test"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+
+
+    </div>
+</section>
+<div class="testimonial-container">
+    <h2 class="heading">Certifications</h2>
+    <h3 class="sub-heading">My <span>Experiances</span></h3>
+    <div class="t-wrapper">
+        <div class="t-box mySwiper">
+            <div class="t-content swiper-wrapper">
+                <div class="t-slide swiper-slide">
+                    
+                    <img src="./assets/Sridhar NSDC Certificate.jpeg" alt="">
+                    <h4><span>CERTIFICATIONS</span></h4>
+                    <h3> Government Intern completed ("NSDC")  </h3>
+                <p> "6 Months of Dedication – Government Internship Successfully Completed!" </p>
+            </div>
+                <div class="t-slide swiper-slide">
+                    
+                        <img src="./assets/Hackathon.jpeg" alt="">
+                        <h4><span>CERTIFICATIONS</span></h4>
+                    <h3> 3rd Prize in Hackathon </h3>
+                    <p> "3rd Place Winner – Excelling in Innovation with [Startup Company Name]!" </p>
+                </div>
+
+                <div class="t-slide swiper-slide">
+                    
+                    <img src="./assets/tribute - Copy.png" alt="">
+                    <h4><span>CERTIFICATIONS</span></h4>
+                <h3> Tribute page  </h3>
+                <p> "Honored for Creativity – Tribute Page Excellence Recognized!"  </p>
+            </div>
+            </div>
+        
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>  
+        </div>
+    </div>
+</div>
+
+
+<footer class="footer">
+    <div class="footer-text">
+        <p> &copy;Sridhar &nbsp;.All Rights Reserved </p>
+        
+    </div>
+    <p>Designed and Developed by Sridhar</p>   
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></box-icon></a>
+    </div>
+</footer>
+
+<!-- scroll reveal -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="
+    "></script>
+    <script>
+        var typeData= new Typed(".role", {
+            strings: [
+                
+                "Student",
+                "Passionate Visionary",
+            ],
+            loop: true,
+            typeSpeed: 50,
+            backSpeed: 60,
+            backDelay: 500,
+        });
+    </script>
+
+    <!-- sciper js -->
+    <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="pf.js"></script>
+    
+</body>
+</html>
